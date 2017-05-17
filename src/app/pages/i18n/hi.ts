@@ -1,7 +1,7 @@
 export const LANG_HI_NAME = 'hi';
 
 export const LANG_HI_TRANS = {
-    'Angular': 'नमस्ते दुनिया',
+    'Angular': 'कोणीय',
     'Employee': 'कर्मचारी',
     'Name': 'नाम',
     'Age': 'आयु',
