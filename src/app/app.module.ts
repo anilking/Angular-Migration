@@ -14,6 +14,7 @@ import { TRANSLATION_PROVIDERS } from './service/translations';
 import { TRANSLATIONS } from './service/translations';
 import { TranslatePipe } from './pipes/translate.pipe';
 import { AppRoutingModule } from './app.routing';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AppRoutingModule } from './app.routing';
     FooterComponent,
     ContentComponent,
     SearchPipe,
-    TranslatePipe
+    TranslatePipe,
+    LoginComponent
   ],
   imports: [
     AppRoutingModule,
